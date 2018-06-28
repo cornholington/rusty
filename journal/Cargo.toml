@@ -1,0 +1,9 @@
+[package]
+name = "journal"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+
+[dependencies]
+leveldb = "0.8"
+getopts = "0.2"
+bincode = "1.0"
