@@ -1,0 +1,6 @@
+[package]
+name = "loop_bug"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+
+[dependencies]

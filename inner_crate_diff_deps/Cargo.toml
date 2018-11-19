@@ -1,0 +1,11 @@
+[package]
+name = "inner_crate_diff_deps"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+
+[dependencies]
+bincode = "1.0.0"
+inner = { path = "inner", version="0.1.0" }
+
+[workspace]
+members = [ ".", "inner"]

@@ -1,0 +1,8 @@
+[package]
+name = "file_journal"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+
+[dependencies]
+getopts = "0.2"
+bincode = "1.0"

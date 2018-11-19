@@ -1,0 +1,10 @@
+[package]
+name = "inner"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+
+[dependencies]
+rand = "0.5.5"
+
+[lib]
+name = "inner"
