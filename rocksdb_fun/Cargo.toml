@@ -1,0 +1,9 @@
+[package]
+name = "rocksdb_fun"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+edition = "2018"
+
+[dependencies]
+rocksdb = "0.10.1"
+byteorder = "1.2.1"
