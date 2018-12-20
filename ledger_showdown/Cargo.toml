@@ -1,0 +1,12 @@
+[package]
+name = "ledger_showdown"
+version = "0.1.0"
+authors = ["Rob Walker <rwalker@rwalker.com>"]
+edition = "2018"
+
+[dependencies]
+rocksdb = "0.10.1"
+rkv = "0.7.0"
+sled = "0.16.11"
+rand = "0.6.1"
+byteorder = "1.2.1"
