@@ -134,7 +134,7 @@ fn rkv() {
     let created_arc = Manager::singleton()
         .write()
         .unwrap()
-        .get_or_create_with_capacity(Path::new("rkv"), Rkv::new)
+        .get_or_create(Path::new("rkv"), Rkv::new)
         .unwrap();
     let env = created_arc.read().unwrap();
 
